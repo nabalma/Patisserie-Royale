@@ -1,0 +1,1165 @@
+
+header{
+Display:flex;
+justify-content:space-between;
+align-items:center;
+width:100%;	
+border-bottom:#1B0C5C 1px solid;
+height:20%;
+
+}
+
+.milieu_entete{
+	display:flex;
+	flex-direction:column;
+	flex:11;
+	text-align:center;
+	margin-left: 2%;
+}
+
+.accroche{
+	font-family:"arial Black";
+	font-size:25px;
+	
+	color:#9E041C ;
+	font-weight:bold;
+}
+
+nav{
+flex:11;
+border:1px solid transparent;
+margin-left:130px;
+}
+
+header .logo{
+flex:0.5;
+
+}
+
+.nous_rejoindre_connexion_socio {
+flex:4; 
+margin-top:10px;
+}
+
+
+.logo img{
+width:100px;
+height:100px;
+border-radius:70px;
+border:1px solid black;	
+	
+}
+
+
+.socio img{
+width:40px;
+height:40px;	
+margin-top:15px;	
+}
+
+.lien_index .accueil,.lien_index .produit,.lien_index .boutique,.lien_index .propos,.lien_index .contact{
+ width:180px;
+ height:30px;
+ text-align:center;
+ list-style-type:none;
+ float:left;
+ font-family:arial;
+ font-size:17px;
+ margin-left: 5px;	
+ 
+}
+
+.accueil>a,.produit>a,.boutique>a,.propos>a,.contact>a{
+text-decoration:none;
+width:180px;
+height:30px;
+padding-top:15px;
+border-bottom:3px solid #191664;
+border-left:1px solid #A5D2F7;
+border-right:1px solid #A5D2F7;
+border-top:1px solid #A5D2F7;
+display:block;
+border-radius:5px;
+color:#072B48;
+
+}
+
+
+.accueil > li,.produit > li,.boutique > li,.propos > li,.contact > li{
+margin-top:20px;
+}
+
+
+.accueil>a:hover,.produit>a:hover,.boutique>a:hover,.propos>a:hover,.contact>a:hover{
+background-color:#072B48  ;
+border-bottom:5px solid #EAF060 ;
+display:block;
+font-weight:bold;
+color:#CCCC00;
+border-radius:8px 8px 0px 0px;	
+}
+
+
+
+.container_index{
+margin-top:1%;
+font-family:arial;
+font-size:25px;
+text-align:center;
+font-weight:bold;
+color:#071955;
+background:url('20201207_133415.jpg'),url('IMG-20211014-WA0005.jpg'),url('IMG-20211014-WA0006.jpg'),url('IMG-20211014-WA0015.jpg'),url('IMG-20211014-WA0027.jpg');
+background-repeat: no-repeat;
+width:100%;
+height:50%;
+background-position: 2% , 26% , 50%, 74%, 98%;
+background-size: 18%,18%,18%,18%,18%
+
+}
+
+
+footer{
+border-top:#1B0C5C 1px solid;
+Display:flex;
+justify-content:space-around;
+align-items:center;
+width:100%;
+	
+background-color:black;
+color:white;
+font-family:arial;
+font-size:11px;
+
+
+}
+
+
+.adresse img{
+width:18px;
+height:18px;		
+}
+
+.titre,div.heure_douverture + p {
+color:#CCCC00;
+font-size:15px;		
+}
+div.heure_douverture > p:first-child {
+color:#CCCC00;
+font-size:15px;		
+}
+
+
+.lien_rejoindre,.lien_connexion {
+font-size:15px;
+padding:10px;
+margin:auto;
+cursor:pointer;
+color:#0C0939;
+border-radius:8px 8px 8px 8px;
+border: 1px solid black;
+font-family:arial;			
+}
+
+
+footer .lien_rejoindre,footer .lien_connexion {
+font-size:15px;
+padding:10px;
+
+cursor:pointer;
+color:#0C0939;
+border-radius:8px 8px 8px 8px;
+border: 1px solid black;
+font-family:arial;
+background-color:white;
+margin:auto;		
+}
+
+
+.lien_rejoindre:hover,.lien_connexion:hover {
+
+background-color:#072B48  ;
+font-weight:bold;
+color:#CCCC00;
+padding:10px;
+box-shadow: 2px 2px 4px 0px  #F9D827;		
+}
+
+.Appel_pr_commande{
+Display:flex;
+justify-content:space-evenly;
+font-size:20px;
+color:#961905;
+margin-top:1%; 
+	
+}
+
+.Appel_pr_commande p{
+	margin-top:2%; 
+	height:20px;
+}
+
+.p_avec_image img{
+	margin-bottom:-8px;
+	width:30px;
+	height:30px;
+
+}
+
+.p_avec_texte{
+	margin-top:27%; 
+    display:inline-block;
+	height:20px;
+}
+
+.p_avec_image {
+padding-left:10px;
+padding-right:10px;
+border:3px solid #961905;	
+height:40px;
+border-radius: 20px;
+display:inline-block;
+height:40px;
+margin-top:27%;
+background-color:#072B48;
+color:white;
+}
+
+.p_avec_texte .ou{
+border:3px solid #961905;	
+height:60px;
+border-radius: 50px;
+padding:10px;
+margin-top:0px;
+width:30px;
+height:30px;
+}
+
+.Appel_pr_commande .p_avec_image a{
+font-size:20px;	
+height:40px;
+border-radius: 20px;
+display:inline-block;
+height:5px;
+border:1px transparent solid;
+background-color:#072B48;
+color:white;
+margin-bottom:10px;
+text-decoration:none;
+padding-top:0px;
+padding-left:10px;
+padding-right:10px;
+}
+
+/** Menu deroulant  **/
+
+
+nav ul{
+	padding:0px;
+	margin:0px;
+}
+
+.sous_menu a:hover{
+background-color:#072B48;
+display:block;
+font-weight:bold;
+color:#CCCC00;
+border-radius:8px;	
+}
+
+.sous_menu li{
+border-radius:8px;
+/**display:none;**/
+
+	visibility:hidden;
+	opacity:0;
+	max-height:0px;
+
+
+}
+
+.bloc_accueil ul,.bloc_produit ul,.bloc_boutique ul,.bloc_propos ul,.bloc_contact ul{
+list-style-type:none	
+}
+
+.sous_menu a{
+text-decoration:none;
+width:180px;
+height:30px;
+padding-top:15px;
+display:block;
+color:black;
+border-radius:10px;
+border:1px #071140 solid;
+font-weight:bold;
+color:black;
+background-color:#C1CCFB;	
+}
+
+
+nav .lien_index .bloc_produit>li:hover ul li,nav .lien_index .bloc_accueil>li:hover ul li,nav .lien_index .bloc_boutique>li:hover ul li,nav .lien_index .bloc_propos>li:hover ul li,nav .lien_index .bloc_contact>li:hover ul li{
+	/**Display:block;**/
+	visibility:visible;
+	opacity:1;
+	max-height:200px;
+    transition: opacity 5s ease .5s;
+}
+
+/** Celebration**/
+
+.container_celebration{
+display:flex;
+
+margin-top:10px;
+font-family:arial;
+font-size:25px;
+text-align:center;
+font-weight:bold;
+color:#071955;
+
+width:100%;
+height:50%;
+
+
+}
+
+.produits_celebration{
+display:flex;
+justify-content:space-around;
+}
+
+.produits_celebration > div:hover{
+border:3px solid #170E61;
+box-shadow: 10px 10px 10px #170E61;
+background-color:#C6C5C8;
+}
+
+
+.produit1_celebration{
+margin-top:1px;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+font-size:15px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+
+}
+
+
+.produit1_celebration .image_produit1 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+.btn_commandez{
+margin-top:10px;
+border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+	cursor:pointer;
+}
+
+.titre_produit{
+	font-family:arial;
+	font-size:25px;
+	
+}
+
+.prix_produit{
+	font-family:arial;
+	font-size:25px;
+	
+}
+
+.description_produit{
+	margin-top:10px;
+	font-family:arial;
+	font-size:15px;
+	text-align:center justify;
+}
+
+
+.produit2_celebration{
+border: 1px solid black;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+}
+
+.produit2_celebration .image_produit2 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+.produit3_celebration{
+border: 1px solid black;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+}
+
+
+.produit3_celebration .image_produit3 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+/**chocolat**/
+
+.container_chocolat{
+display:flex;
+flex-direction:column;
+
+margin-top:10px;
+font-family:arial;
+font-size:25px;
+text-align:center;
+font-weight:bold;
+color:#071955;
+
+width:100%;
+height:50%;
+
+
+}
+
+.produits_chocolat{
+display:flex;
+justify-content:space-around;
+}
+
+.produits_chocolat > div:hover{
+border:3px solid #170E61;
+box-shadow: 10px 10px 10px #170E61;
+background-color:#C6C5C8;
+}
+
+
+.produit1_chocolat{
+margin-top:1px;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+font-size:15px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+
+}
+
+
+.produit1_chocolat .image_produit1 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+.produit2_chocolat{
+border: 1px solid black;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+}
+
+.produit2_chocolat .image_produit2 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+.produit3_chocolat{
+border: 1px solid black;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+}
+
+
+.produit3_chocolat .image_produit3 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+
+/**biscuits**/
+
+.container_biscuit{
+display:flex;
+flex-direction:column;
+
+margin-top:10px;
+font-family:arial;
+font-size:25px;
+text-align:center;
+font-weight:bold;
+color:#071955;
+
+width:100%;
+height:50%;
+
+
+}
+
+.produits_biscuit{
+display:flex;
+justify-content:space-around;
+}
+
+.produits_biscuit > div:hover{
+border:3px solid #170E61;
+box-shadow: 10px 10px 10px #170E61;
+background-color:#C6C5C8;
+}
+
+
+.produit1_biscuit{
+margin-top:1px;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+font-size:15px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+
+}
+
+
+.produit1_biscuit .image_produit1 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+.produit2_biscuit{
+border: 1px solid black;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+}
+
+.produit2_biscuit .image_produit2 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+.produit3_biscuit{
+border: 1px solid black;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+}
+
+
+.produit3_biscuit .image_produit3 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+/**nous joindre**/
+
+.container_nous_joindre{
+	display:flex;
+	justify-content:space-around;
+	height:430px;
+}
+
+
+
+.Carte_visite {
+font-family:arial;
+border:2px solid #1A0D35;
+margin-top:20px;
+margin-bottom:20px;
+width:430px;
+}
+
+
+.Carte_visite img {
+width:30px;
+height:30px;
+margin-left:20px;
+}
+
+.formulaire{
+	border:2px solid #1A0D35;
+	width:700px;
+	margin-bottom:20px;
+	margin-top:20px;
+	font-family:arial;
+}
+
+.Carte_visite .titre{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+
+.Carte_visite .titre,.Carte_visite .localisation,.Carte_visite .contact_{
+	margin-left:20px;
+}
+
+.Carte_visite .contactez_nous,.formulaire .contactez_nous {
+font-weight:bold;
+text-align:center;
+font-size: 22px;
+margin-top:2px;
+}
+
+.nom input,.prenom input,.email input,.telephone input,.votre_message input{
+	margin-bottom:10px;
+	background-color:#C6C5C8;
+	width:95%;
+	height:25px;
+	
+}
+
+.formulaire .telephone{
+margin-left:20px;	
+}
+
+label{
+	margin-left:20px;
+}
+
+.votre_message textarea{
+	margin-bottom:5px;
+	margin-left:15px;
+	height:70px;
+	width:92%;
+	background-color:#C6C5C8;
+}
+
+.btn_soumettre input{
+	margin-left:550px;
+	padding:5px 15px 5px 15px;
+	font-size:15px;
+	margin-bottom: 2px;
+	cursor:pointer;
+}
+
+/**se connecter**/
+
+
+.container_se_connecter{
+	display:flex;
+	justify-content:space-around;
+	height:430px;
+}
+
+
+.se_connecter {
+font-family:arial;
+border:2px solid #1A0D35;
+margin-top:20px;
+margin-bottom:20px;
+width:430px;
+margin-left:20px;
+}
+
+/**si vous avez déja un compte**/
+
+.se_connecter .mot_passe input,.se_connecter .email_adresse input,.btn_se_connecter input {
+	margin-bottom:10px;
+	width:85%;
+	height:25px;
+	margin-left:20px;
+	font-family:arial;
+}
+
+.btn_se_connecter input{
+	font-family:arial;
+	background-color:black;
+	color:white;
+	margin-left:0px;
+	padding:5px 45px 5px 45px;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+.btn_se_connecter {
+    margin-bottom:10px;
+	height:25px;
+	margin-left:20px;
+	padding:5px 15px 5px 15px;
+    cursor:pointer;
+}
+
+.se_connecter .titre{
+	font-size: 25px;
+	margin-bottom: 30px;
+	margin-left:20px;
+}
+
+.se_connecter .contactez_nous,.formulaire .contactez_nous {
+font-weight:bold;
+text-align:center;
+font-size: 22px;
+margin-top:2px;
+}
+
+/**si vous n'avez pas encore un compte**/
+
+.formulaire_compte .contactez_nous {
+font-weight:bold;
+text-align:center;
+font-size: 22px;
+margin-top:2px;
+}
+
+
+
+.formulaire_compte {
+font-family:arial;
+border:2px solid #1A0D35;
+margin-top:20px;
+margin-bottom:20px;
+width:530px;
+}
+
+.formulaire_compte,.contactez_nous,.nom,.prenom,.email,.mot_de_passe,.btn_soumettre_compte{
+margin-left:20px;
+
+}
+
+.formulaire_compte input{
+background-color:white;
+width:450px;
+
+}
+
+
+
+.formulaire_compte .btn_soumettre_compte input{
+	font-family:arial;
+	background-color:black;
+	color:white;
+	margin-left:0px;
+	padding:5px 45px 5px 45px;
+	cursor:pointer;
+	border-radius:10px;
+	margin-top:35px;
+	
+}
+
+
+@media all and (max-width: 1280px)
+{
+
+/*************************************Accueuil********************************************/
+
+.accroche{
+	font-family:"arial Black";
+	font-size:15px;  /**25px**/
+	color:#9E041C ;
+	font-weight:bold;
+}
+
+
+.logo img
+{
+width:50px;/**100px**/
+height:50px;/**100px**/
+border-radius:70px;
+border:1px solid black;	
+	
+}
+
+.socio img
+{
+width:20px;/**40px**/
+height:20px;/**40px**/	
+margin-top:10px;	
+}
+
+
+.milieu_entete{
+	flex:15;
+}
+
+nav{
+flex:13;
+}
+
+header .logo{
+flex:1;
+}
+
+.nous_rejoindre_connexion_socio {
+flex:1; 
+}
+
+
+
+.Appel_pr_commande{
+Display:flex;
+justify-content:space-evenly;
+font-size:10px;  /**20px**/
+color:#961905;
+margin-top:2%; 
+	
+}
+
+.Appel_pr_commande p{
+	margin-top:2%; 
+	height:10px; /**20px**/
+}
+
+.p_avec_image img{
+	margin-bottom:-8px;
+	width:30px;    /**15px**/
+	height:30px;   /**15px**/
+
+}
+
+.p_avec_texte{
+	margin-top:29%; 
+    display:inline-block;
+	height:10px;  /**20px**/
+}
+/*******/
+.p_avec_image {
+padding-left:5px; /**10px**/
+padding-right:5px; /**10px**/
+border:3px solid #961905;	
+height:40px;  /**40px**/
+border-radius: 20px;
+display:inline-block;
+margin-top:27%;
+background-color:#072B48;
+color:white;
+}
+
+.p_avec_texte .ou
+{
+border:3px solid #961905;	
+height:30px;  /**60px**/
+border-radius: 50px;
+padding:5px;  /**10px**/
+margin-top:0px;
+width:15px;  /**30px**/
+height:15px; /**30px**/
+}
+
+.Appel_pr_commande .p_avec_image a
+{
+font-size:10px;	 /**20px**/
+height:20px;   /**20px**/
+border-radius: 20px;
+display:inline-block;
+height:5px;
+border:1px transparent solid;
+background-color:#072B48;
+color:white;
+margin-bottom:0px;  /**10px**/
+text-decoration:none;
+padding-top:0px;
+padding-left:5px;  /**10px**/
+padding-right:5px;  /**10px**/
+}
+
+
+.nous_rejoindre_connexion
+{
+direction:flex;
+flex-direction:column;
+font-size:13px;
+}
+
+.nous_rejoindre_connexion a
+{
+font-size:10px;
+display:block;
+width:100px;
+text-decoration:none;
+}
+
+
+.socio
+{
+direction:flex;
+flex-direction:column;
+font-size:13px;	
+}
+
+.accueil>a,.produit>a,.boutique>a,.propos>a,.contact>a
+{
+text-decoration:none;
+width:120px; /**180**/
+height:20px;  /**60**/
+padding-top:5px;
+border-bottom:3px solid #191664;
+border-left:1px solid #A5D2F7;
+border-right:1px solid #A5D2F7;
+border-top:1px solid #A5D2F7;
+display:block;
+border-radius:5px;
+color:#072B48;
+font-size:10px;
+padding-left:2px;
+padding-right:2px;
+}
+
+.sous_menu a
+{
+text-decoration:none;
+width:120px;  /**180**/
+height:20px;  /**60**/
+padding-top:15px;
+display:block;
+color:black;
+border-radius:10px;
+border:1px #071140 solid;
+font-weight:bold;
+color:black;
+background-color:#C1CCFB;
+font-size:10px;	
+}
+
+/*************************************celebrations********************************************/
+
+.produits_celebration
+{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+
+.produit1_celebration{
+margin-top:1px;
+margin-bottom:5px;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+font-size:10px;  /**15px**/
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+
+}
+
+
+.produit1_celebration .image_produit1 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+
+.btn_commandez{
+margin-top:5px; /**10px**/
+border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+	cursor:pointer;
+}
+
+.titre_produit{
+	font-family:arial;
+	font-size:13px; /**25px**/
+	
+}
+
+.prix_produit{
+	font-family:arial;
+	font-size:13px; /**25px**/
+	
+}
+
+.description_produit{
+	margin-top:5px;  /**10px**/
+	font-family:arial;
+	font-size:13px; /**25px**/
+	text-align:center justify;
+}
+
+
+.produit2_celebration{
+margin-top:1px;
+margin-bottom:5px;
+}
+
+/*************************************chocolat********************************************/
+
+.produits_chocolat{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+
+.produit1_chocolat{
+margin-top:1px;
+margin-bottom:5px;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+font-size:10px;  /**15px**/
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+
+}
+
+
+.produit1_chocolat .image_produit1 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+.produit2_chocolat{
+margin-top:1px;
+margin-bottom:5px;
+}	
+
+
+/*************************************biscuit********************************************/
+
+.produits_biscuit{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+
+.produit1_biscuit{
+margin-top:1px;
+margin-bottom:5px;
+border: 1px solid black;
+display:flex;
+flex-direction:column;
+width:25%;
+height:435px;
+font-size:10px;  /**15px**/
+border-radius:25px;
+box-shadow: 8px 8px 8px #170E61;
+
+}
+
+
+.produit1_biscuit .image_produit1 img{
+border-radius:25px 25px 0px 0px;
+width:100%;
+height:250px;
+	
+}
+
+.produit2_biscuit{
+margin-top:1px;
+margin-bottom:5px;
+}	
+
+/*************************************biscuit********************************************/
+
+.container_nous_joindre
+{
+	display:flex;
+	flex-direction:column;
+	height:700px;
+	font-size:10px;
+}
+
+
+.Carte_visite .contactez_nous,.formulaire .contactez_nous,.Carte_visite .titre{
+font-size:15px;	
+}
+
+
+/*************************************se connecter********************************************/
+
+.container_se_connecter
+{
+	display:flex;
+	flex-direction:column;
+	height:700px;
+	font-size:10px;
+}
+
+
+.se_connecter .contactez_nous,.formulaire_compte .contactez_nous,.se_connecter .titre{
+font-size:15px;	
+}
+
+
+}
